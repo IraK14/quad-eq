@@ -39,12 +39,14 @@ class Quadratic {
     // This is a constructor: it gets called when you instantiate the class to make a new object.
     // This constructor takes arguments, which we copy into the instance variables we just defined.
     Quadratic(double newA, double newB, double newC){
+        //Pretty much states that A B and C are real numbers
         a = newA;
         b = newB;
         c = newC;
     }
 
     // getters take no arguments and return a value
+    //returns the real umber value of A B and C 
     double getA(){
         return a;
     }
@@ -58,6 +60,7 @@ class Quadratic {
     }
 
     // setters take an argument and return nothing, or "void".
+    //Officially declaring that the real number value of A B and C and their new official and final values. 
     void setA(double newA){
         a = newA;
     }
